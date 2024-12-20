@@ -15,21 +15,21 @@ To run this project, ensure you have the following tools and libraries installed
 
 Run the following commands to install the necessary dependencies:
 
-```bash
+"""bash
 sudo apt-get update
-sudo apt-get install build-essential libncurses5-dev libncursesw5-dev
+sudo apt-get install build-essential libncurses5-dev libncursesw5-dev"""
 
-### Install Required Libraries (Linux)
+## How to run (Linux)
 
- - Clone the repository
-    git clone https://github.com/<your-username>/frogger-game.git
-    cd frogger-game
+- Clone the repository
+  git clone https://github.com/GloriaRagnedda/frogger.git
+  cd frogger
 
 - Compile the project
-    make compile
+  make compile
 
 - To link the object files and create the executable:
-    make linking
+  make linking
 
 - Run the game
-    ./Frogger
+  ./Frogger
